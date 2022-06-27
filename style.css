@@ -15,4 +15,9 @@
 
 body {
     background-color: rgb(75, 8, 138);
+    color: antiquewhite;
+}
+
+.table {
+    font-size: 30px;
 }
