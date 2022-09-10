@@ -21,3 +21,9 @@ body {
 .table {
     font-size: 30px;
 }
+
+.button {
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center; 
+}

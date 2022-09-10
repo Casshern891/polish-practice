@@ -11,3 +11,5 @@ const wordList = {
     "patelni": "frying pan",
     "grzyb": "mushroom"
 }
+
+const getWordButton = document.getElementById("getWordButton");
