@@ -12,4 +12,9 @@ const wordList = {
     "grzyb": "mushroom"
 }
 
+function getRandomWord(obj) {
+  const keys = Object.keys(obj);
+  return obj[keys[Math.floor(Math.random() * keys.length)]];
+}
+
 const getWordButton = document.getElementById("getWordButton");
