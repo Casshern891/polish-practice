@@ -18,3 +18,8 @@ function getRandomWord(obj) {
 }
 
 const getWordButton = document.getElementById("getWordButton");
+
+getWordButton.addEventListener("click", function onClick() {
+    getWordButton.style.backgroundColor = "red";
+    getWordButton.style.color = "white";
+});
