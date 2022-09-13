@@ -9,7 +9,11 @@ const wordList = {
     "wołowina": "beef",
     "wegetariański": "vegetarian",
     "patelni": "frying pan",
-    "grzyb": "mushroom"
+    "grzyb": "mushroom",
+    "usunie": "delete",
+    "stanie": "able",
+    "znika": "disappears",
+    "poniżej": "below"
 }
 
 function getRandomWord(obj) {
