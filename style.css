@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: rgb(75, 8, 138);
+    background: linear-gradient(blue, purple);
     color: antiquewhite;
 }
 
