@@ -26,5 +26,7 @@ const getWordButton = document.getElementById("getWordButton");
 getWordButton.addEventListener("click", function onClick() {
     getWordButton.style.backgroundColor = "red";
     getWordButton.style.color = "white";
+    let textEl = document.createTextNode("Witaj świecie!");
+    document.getElementById("list1").appendChild(textEl);
 });
 
