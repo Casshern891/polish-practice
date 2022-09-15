@@ -22,6 +22,7 @@ function getRandomWord(obj) {
 }
 
 const getWordButton = document.getElementById("getWordButton");
+const translateButton = document.getElementById("translateButton");
 
 getWordButton.addEventListener("click", function onClick() {
     getWordButton.style.backgroundColor = "red";

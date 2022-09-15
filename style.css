@@ -18,6 +18,11 @@ body {
     color: antiquewhite;
 }
 
+.list {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .table {
     font-size: 30px;
 }
@@ -26,4 +31,5 @@ body {
     padding: 15px 32px;
     margin: 4px 2px;
     text-align: center; 
+    font-size: large;
 }
