@@ -18,7 +18,7 @@ const wordList = {
 
 function getRandomWord(obj) {
   const keys = Object.keys(obj);
-  return obj[keys[Math.floor(Math.random() * keys.length)]];
+  return keys[Math.floor(Math.random() * keys.length)];
 }
 
 const getWordButton = document.getElementById("getWordButton");
