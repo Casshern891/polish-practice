@@ -13,7 +13,8 @@ const wordList = {
     "usunie": "delete",
     "stanie": "able",
     "znika": "disappears",
-    "poniżej": "below"
+    "poniżej": "below",
+    "przetrwać": "survive"
 }
 
 function getRandomWord(obj) {
