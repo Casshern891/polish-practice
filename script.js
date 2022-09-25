@@ -14,7 +14,9 @@ const wordList = {
     "stanie": "able",
     "znika": "disappears",
     "poniżej": "below",
-    "przetrwać": "survive"
+    "przetrwać": "survive",
+    "potomek": "descendent",
+    "rodzeństwo": "siblings"
 }
 
 function getRandomWord(obj) {
