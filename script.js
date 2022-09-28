@@ -20,7 +20,8 @@ const wordList = {
     "zamknąć": "to close",
     "zmienić": "to change",
     "wysyłać": "to send",
-    "otworzyć": "to open"
+    "otworzyć": "to open",
+    "wziąć": "to take"
 }
 
 function getRandomWord(obj) {
