@@ -16,7 +16,11 @@ const wordList = {
     "poniżej": "below",
     "przetrwać": "survive",
     "potomek": "descendent",
-    "rodzeństwo": "siblings"
+    "rodzeństwo": "siblings",
+    "zamknąć": "to close",
+    "zmienić": "to change",
+    "wysyłać": "to send",
+    "otworzyć": "to open"
 }
 
 function getRandomWord(obj) {
