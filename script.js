@@ -21,7 +21,9 @@ const wordList = {
     "zmienić": "to change",
     "wysyłać": "to send",
     "otworzyć": "to open",
-    "wziąć": "to take"
+    "wziąć": "to take",
+    "pozdrawiam": "greetings",
+    "serdecznie": "heartily"
 }
 
 function getRandomWord(obj) {
