@@ -1,5 +1,8 @@
 const wordConstructors = {
     "nim": "them",
     "nam": "us",
-    "niech": "let"
+    "niech": "let",
+    "ktoś": "someone",
+    "którego": "whose",
+    "czyj": "whose"
 }
