@@ -23,7 +23,8 @@ const wordList = {
     "otworzyć": "to open",
     "wziąć": "to take",
     "pozdrawiam": "greetings",
-    "serdecznie": "heartily"
+    "serdecznie": "heartily",
+    "pokazywać": "to show"
 }
 
 function getRandomWord(obj) {
