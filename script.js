@@ -36,9 +36,11 @@ const getWordButton = document.getElementById("getWordButton");
 const translateButton = document.getElementById("translateButton");
 
 getWordButton.addEventListener("click", function onClick() {
+    const listEl = document.getElementById("list1");
     getWordButton.style.backgroundColor = "red";
     getWordButton.style.color = "white";
-    let textEl = document.createTextNode("Witaj świecie!");
-    document.getElementById("list1").appendChild(textEl);
+    let currentWord = getRandomWord(wordList);
+    let textEl = document.createTextNode(currentWord);
+    listEl.appendChild(textEl);
 });
 
