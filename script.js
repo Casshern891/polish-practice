@@ -35,12 +35,15 @@ function getRandomWord(obj) {
 const getWordButton = document.getElementById("getWordButton");
 const translateButton = document.getElementById("translateButton");
 
+const listEl = document.getElementById("list1");
+let textEl = document.createTextNode("word");
+listEl.appendChild(textEl);
+
 getWordButton.addEventListener("click", function onClick() {
-    const listEl = document.getElementById("list1");
+
     getWordButton.style.backgroundColor = "red";
     getWordButton.style.color = "white";
     let currentWord = getRandomWord(wordList);
-    let textEl = document.createTextNode(currentWord);
-    listEl.appendChild(textEl);
+    textEl.textContent = currentWord;
 });
 
