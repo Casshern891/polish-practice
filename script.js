@@ -40,6 +40,10 @@ let textEl = document.createTextNode("word");
 listEl.appendChild(textEl);
 let currentWord = "";
 
+const listEl2 = document.getElementById("list2");
+let textEl2 = document.createTextNode("Translation");
+listEl2.appendChild(textEl2);
+
 getWordButton.addEventListener("click", function onClick() {
 
     getWordButton.style.backgroundColor = "red";
