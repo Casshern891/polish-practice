@@ -38,12 +38,17 @@ const translateButton = document.getElementById("translateButton");
 const listEl = document.getElementById("list1");
 let textEl = document.createTextNode("word");
 listEl.appendChild(textEl);
+let currentWord = "";
 
 getWordButton.addEventListener("click", function onClick() {
 
     getWordButton.style.backgroundColor = "red";
     getWordButton.style.color = "white";
-    let currentWord = getRandomWord(wordList);
+    currentWord = getRandomWord(wordList);
     textEl.textContent = currentWord;
 });
 
+translateButton.addEventListener("click", function onClick() {
+  translateButton.style.backgroundColor = "red";
+  translateButton.style.color = "white";
+});
