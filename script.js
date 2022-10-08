@@ -50,9 +50,11 @@ getWordButton.addEventListener("click", function onClick() {
     getWordButton.style.color = "white";
     currentWord = getRandomWord(wordList);
     textEl.textContent = currentWord;
+    textEl2.textContent = "";
 });
 
 translateButton.addEventListener("click", function onClick() {
   translateButton.style.backgroundColor = "red";
   translateButton.style.color = "white";
+  textEl2.textContent = wordList[currentWord];
 });
