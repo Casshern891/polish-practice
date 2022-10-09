@@ -24,7 +24,9 @@ const wordList = {
     "wziąć": "to take",
     "pozdrawiam": "greetings",
     "serdecznie": "heartily",
-    "pokazywać": "to show"
+    "pokazywać": "to show",
+    "życzliwość": "kindness",
+    "odzwierciedlić": "reflect"
 }
 
 function getRandomWord(obj) {
