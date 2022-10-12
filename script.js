@@ -26,7 +26,11 @@ const wordList = {
     "serdecznie": "heartily",
     "pokazywać": "to show",
     "życzliwość": "kindness",
-    "odzwierciedlić": "reflect"
+    "odzwierciedlić": "reflect",
+    "dopóki": "until",
+    "trwa": "lasts",
+    "upadamy": "we fall",
+    "przestaje": "stops"
 }
 
 function getRandomWord(obj) {
