@@ -30,7 +30,11 @@ const wordList = {
     "dopóki": "until",
     "trwa": "lasts",
     "upadamy": "we fall",
-    "przestaje": "stops"
+    "przestaje": "stops",
+    "okres": "period",
+    "pora": "time",
+    "wiosna": "spring",
+    "jesień": "autumn"
 }
 
 function getRandomWord(obj) {
