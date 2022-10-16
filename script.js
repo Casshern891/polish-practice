@@ -34,7 +34,9 @@ const wordList = {
     "okres": "period",
     "pora": "time",
     "wiosna": "spring",
-    "jesień": "autumn"
+    "jesień": "autumn",
+    "łyżka": "spoon",
+    "łóżko": "spoon"
 }
 
 function getRandomWord(obj) {
