@@ -40,7 +40,9 @@ const wordList = {
     "podłoga": "floor",
     "dach": "roof",
     "kuchenka": "stove",
-    "Ściana": "wall"
+    "Ściana": "wall",
+    "dzwonki": "bells",
+    "koc": "blanket"
 }
 
 function getRandomWord(obj) {
