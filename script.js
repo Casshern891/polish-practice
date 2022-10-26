@@ -36,7 +36,7 @@ const wordList = {
     "wiosna": "spring",
     "jesień": "autumn",
     "łyżka": "spoon",
-    "łóżko": "spoon",
+    "łóżko": "bed",
     "podłoga": "floor",
     "dach": "roof",
     "kuchenka": "stove",
@@ -44,7 +44,7 @@ const wordList = {
     "dzwonki": "bells",
     "koc": "blanket",
     "wśród": "among",
-    
+
 }
 
 function getRandomWord(obj) {
