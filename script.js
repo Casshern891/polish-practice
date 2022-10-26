@@ -42,7 +42,9 @@ const wordList = {
     "kuchenka": "stove",
     "Ściana": "wall",
     "dzwonki": "bells",
-    "koc": "blanket"
+    "koc": "blanket",
+    "wśród": "among",
+    
 }
 
 function getRandomWord(obj) {
