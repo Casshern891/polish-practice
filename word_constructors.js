@@ -4,5 +4,8 @@ const wordConstructors = {
     "niech": "let",
     "ktoś": "someone",
     "którego": "whose",
-    "czyj": "whose"
+    "czyj": "whose",
+    "przez": "by, through",
+    "według": "according to",
+    "przed": "before"
 }

@@ -44,6 +44,8 @@ const wordList = {
     "dzwonki": "bells",
     "koc": "blanket",
     "wśród": "among",
+    "podczas": "during",
+    
 
 }
 
