@@ -45,7 +45,10 @@ const wordList = {
     "koc": "blanket",
     "wśród": "among",
     "podczas": "during",
-    
+    "wybaczyć": "to forgive",
+    "tchnienie": "breath",
+    "dzielić się": "to share",
+    "wybawienie": "salvation"
 
 }
 
