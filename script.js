@@ -48,8 +48,8 @@ const wordList = {
     "wybaczyć": "to forgive",
     "tchnienie": "breath",
     "dzielić się": "to share",
-    "wybawienie": "salvation"
-
+    "wybawienie": "salvation",
+    "przygoda": "adventure"
 }
 
 function getRandomWord(obj) {
