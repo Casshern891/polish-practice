@@ -9,3 +9,5 @@ const wordConstructors = {
     "według": "according to",
     "przed": "before"
 }
+
+module.exports = wordConstructors;
