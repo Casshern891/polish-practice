@@ -52,6 +52,24 @@ const wordList = {
     "przygoda": "adventure"
 }
 
+const wordConstructors = {
+  "nim": "them",
+  "nam": "us",
+  "niech": "let",
+  "ktoś": "someone",
+  "którego": "whose",
+  "czyj": "whose",
+  "przez": "by, through",
+  "według": "according to",
+  "przed": "before"
+}
+
+const straznica = {
+  "przyjac": "accept",
+  "chrzest": "baptism",
+  "woli": "will"
+}
+
 function getRandomWord(obj) {
   const keys = Object.keys(obj);
   return keys[Math.floor(Math.random() * keys.length)];

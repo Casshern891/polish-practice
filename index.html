@@ -9,6 +9,14 @@
 </head>
 <body>
     <h1 class="heading" id="title">Polish Practice</h1>
+    <div class="list" id="listSelect">
+        <label for="chooselist">Choose a word list</label>
+        <select name="chooselist" id="chooselist">
+            <option value="random">Random</option>
+            <option value="wordConstructors">Word Constructors</option>
+            <option value="straznica">Straznica</option>
+        </select>
+    </div>
     <div class="list" id="list1">
         <h2 class="heading" id="subheading">Words</h2>
           <button type="button" id="getWordButton">Get Word</button>
@@ -16,7 +24,6 @@
     <div class="list" id="list2">
         <button type="button" id="translateButton">Translate</button>
     </div>
-    <script type="module" src="./word_constructors.js"></script>
     <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
