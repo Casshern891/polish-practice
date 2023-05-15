@@ -70,6 +70,21 @@ const straznica = {
   "woli": "will"
 }
 
+const rodzina = {
+  "krewni": "relatives",
+  "wnuki": "grandchildren",
+  "bliźnięta": "twins",
+  "ojczym": "stepfather",
+  "teść": "father-in-law",
+  "teściowa": "mother-in-law",
+  "szwagier": "brother-in-law",
+  "szwagierka": "sister-in-law",
+  "siostrzenica": "niece",
+  "siostrzeniec": "nephew"
+}
+
+const dictList = [wordList, wordConstructors, straznica, rodzina]
+
 function getRandomWord(obj) {
   const keys = Object.keys(obj);
   return keys[Math.floor(Math.random() * keys.length)];
