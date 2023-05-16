@@ -84,7 +84,7 @@ const rodzina = {
 }
 
 const dictList = [wordList, wordConstructors, straznica, rodzina]
-
+let randomList = wordList
 function getRandomWord(obj) {
   const keys = Object.keys(obj);
   return keys[Math.floor(Math.random() * keys.length)];
@@ -106,7 +106,8 @@ getWordButton.addEventListener("click", function onClick() {
 
     getWordButton.style.backgroundColor = "red";
     getWordButton.style.color = "white";
-    currentWord = getRandomWord(wordList);
+    randomList = dictList[Math.floor(Math.random()*dictList.length)]
+    currentWord = getRandomWord(randomList);
     textEl.textContent = currentWord;
     textEl2.textContent = "";
 });
@@ -114,5 +115,5 @@ getWordButton.addEventListener("click", function onClick() {
 translateButton.addEventListener("click", function onClick() {
   translateButton.style.backgroundColor = "red";
   translateButton.style.color = "white";
-  textEl2.textContent = wordList[currentWord];
+  textEl2.textContent = randomList[currentWord];
 });
